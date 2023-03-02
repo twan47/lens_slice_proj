@@ -11,6 +11,8 @@ pizza_and_prices.sort()
 pizza_and_prices.pop(7)
 cheapest_pizza = pizza_and_prices[0:1]
 priciest_pizza = pizza_and_prices[6:7]
+three_cheapest = pizza_and_prices[0:4]
 print(pizza_and_prices)
 print(cheapest_pizza)
 print(priciest_pizza)
+print(three_cheapest)
